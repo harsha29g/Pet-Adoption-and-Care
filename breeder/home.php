@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>
+    </title>
+    <?php
+    include("header_link.php");
+    ?>
+    <head>
+    <body>
+        <?php
+        include("breeder_header.php");
+        ?>
+        <?php
+        include("breeder_footer.php");
+        ?>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(empty($_SESSION))
+{
+    header('location:../home.php');
+}
+session_destroy();
+header('location:../home.php')
+?>
